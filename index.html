@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DANA Kaget — PRANK 😭</title>
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;
+       font-family:Arial,sans-serif;background:linear-gradient(135deg,#e8f7ff,#fff);
+       padding:20px}
+  .card{width:min(420px,100%);background:#fff;border-radius:24px;padding:28px;
+        text-align:center;box-shadow:0 15px 45px rgba(0,0,0,.12)}
+  .badge{display:inline-block;background:#fff0f0;color:#d00;padding:7px 12px;
+         border-radius:999px;font-weight:700;font-size:13px}
+  h1{margin:18px 0 8px;color:#0875d1}
+  p{color:#555;line-height:1.5}
+  img{width:100%;max-height:280px;object-fit:cover;border-radius:18px;margin:14px 0}
+  button{border:0;border-radius:14px;padding:13px 20px;background:#0875d1;color:#fff;
+         font-size:16px;font-weight:700;cursor:pointer}
+  small{display:block;margin-top:18px;color:#999}
+</style>
+</head>
+<body>
+<div class="card">
+  <span class="badge">⚠️ PRANK / PARODI</span>
+  <h1>🎁 DANA Kaget!</h1>
+  <p>Kamu berhasil membuka kejutan...</p>
+  <img id="monyet" alt="Foto monyet sedang menatap kamera">
+  <h2>🐒 KENA PRANK! 😂</h2>
+  <p>Tenang, ini cuma halaman prank. Tidak ada transaksi atau data yang diminta.</p>
+  <button onclick="location.reload()">Coba Lagi</button>
+  <small>Halaman parodi — bukan halaman resmi DANA.</small>
+</div>
+<script>
+const pics = [
+  "https://images.unsplash.com/photo-1540573133985-87b6da6d54a9?auto=format&fit=crop&w=900&q=85"
+];
+document.getElementById("monyet").src = pics[0];
+</script>
+</body>
+</html>
